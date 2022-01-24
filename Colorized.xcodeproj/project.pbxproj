@@ -11,6 +11,8 @@
 		EFA1F15A279F375100DADC6C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA1F159279F375100DADC6C /* ContentView.swift */; };
 		EFA1F15C279F375300DADC6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFA1F15B279F375300DADC6C /* Assets.xcassets */; };
 		EFA1F15F279F375300DADC6C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFA1F15E279F375300DADC6C /* Preview Assets.xcassets */; };
+		EFA1F166279F376F00DADC6C /* ChangeColorSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA1F165279F376F00DADC6C /* ChangeColorSlider.swift */; };
+		EFA1F168279F3B8B00DADC6C /* RectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA1F167279F3B8B00DADC6C /* RectangleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		EFA1F159279F375100DADC6C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EFA1F15B279F375300DADC6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFA1F15E279F375300DADC6C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EFA1F165279F376F00DADC6C /* ChangeColorSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeColorSlider.swift; sourceTree = "<group>"; };
+		EFA1F167279F3B8B00DADC6C /* RectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				EFA1F157279F375100DADC6C /* ColorizedApp.swift */,
 				EFA1F159279F375100DADC6C /* ContentView.swift */,
+				EFA1F167279F3B8B00DADC6C /* RectangleView.swift */,
+				EFA1F165279F376F00DADC6C /* ChangeColorSlider.swift */,
 				EFA1F15B279F375300DADC6C /* Assets.xcassets */,
 				EFA1F15D279F375300DADC6C /* Preview Content */,
 			);
@@ -139,6 +145,8 @@
 			files = (
 				EFA1F15A279F375100DADC6C /* ContentView.swift in Sources */,
 				EFA1F158279F375100DADC6C /* ColorizedApp.swift in Sources */,
+				EFA1F168279F3B8B00DADC6C /* RectangleView.swift in Sources */,
+				EFA1F166279F376F00DADC6C /* ChangeColorSlider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
