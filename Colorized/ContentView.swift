@@ -24,7 +24,6 @@ struct ContentView: View {
                 .focused($amountIsFocused)
             ChangeColorSlider(tintColor: .blue, value: $blueValue)
                 .focused($amountIsFocused)
-            
             Spacer()
         }
         .padding()
