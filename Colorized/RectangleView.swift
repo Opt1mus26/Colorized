@@ -8,20 +8,22 @@
 import SwiftUI
 
 struct RectangleView: View {
-    @Binding var redValue: Double
-    @Binding var greenValue: Double
-    @Binding var blueValue: Double
+    let redValue: Double
+    let greenValue: Double
+    let blueValue: Double
     
     var body: some View {
         Rectangle()
             .frame(width: 340, height: 170)
             .cornerRadius(30)
-            .foregroundColor(Color(red: redValue, green: greenValue, blue: blueValue))
+            .foregroundColor(Color(red: redValue / 255,
+                                   green: greenValue / 255,
+                                   blue: blueValue / 255))
     }
 }
 
 struct RectangleView_Previews: PreviewProvider {
     static var previews: some View {
-        RectangleView(redValue: .constant(0.0), greenValue: .constant(0.0), blueValue: .constant(0.0))
+        RectangleView(redValue: 0, greenValue: 0, blueValue: 0)
     }
 }

@@ -8,21 +8,26 @@
 import SwiftUI
 
 struct ChangeColorSlider: View {
-    let tintColor: Color
     
     @Binding var value: Double
-    
     @State private var textField = ""
+    
+    let tintColor: Color
     
     var body: some View {
         HStack {
-            Text("\(lround(value * 255.0))").frame(width: 35)
-            Slider(value: $value)
+            Text("\(lround(value))").frame(width: 35)
+            
+            Slider(value: $value, in: 0...255, step: 1)
                 .tint(tintColor)
-            TextField("\(lround(value * 255.0))", text: $textField)
-                .frame(width: 45)
-                .textFieldStyle(.roundedBorder)
-                .keyboardType(.decimalPad)
+                .onChange(of: value) { _ in
+                    textField = "\(lround(value))"
+                }
+            
+            SliderTextField(textField: $textField, value: $value)
+        }
+        .onAppear {
+            textField = "\(lround(value))"
         }
         .padding(8)
     }
@@ -30,6 +35,6 @@ struct ChangeColorSlider: View {
 
 struct ChangeColorSlider_Previews: PreviewProvider {
     static var previews: some View {
-        ChangeColorSlider(tintColor: .red, value: .constant(0.0))
+        ChangeColorSlider(value: .constant(0.0), tintColor: .red)
     }
 }

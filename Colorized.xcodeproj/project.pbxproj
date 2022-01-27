@@ -13,6 +13,7 @@
 		EFA1F15F279F375300DADC6C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFA1F15E279F375300DADC6C /* Preview Assets.xcassets */; };
 		EFA1F166279F376F00DADC6C /* ChangeColorSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA1F165279F376F00DADC6C /* ChangeColorSlider.swift */; };
 		EFA1F168279F3B8B00DADC6C /* RectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA1F167279F3B8B00DADC6C /* RectangleView.swift */; };
+		EFFCB54027A2F96B000F413C /* SliderTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFCB53F27A2F96B000F413C /* SliderTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		EFA1F15E279F375300DADC6C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EFA1F165279F376F00DADC6C /* ChangeColorSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeColorSlider.swift; sourceTree = "<group>"; };
 		EFA1F167279F3B8B00DADC6C /* RectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleView.swift; sourceTree = "<group>"; };
+		EFFCB53F27A2F96B000F413C /* SliderTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				EFA1F159279F375100DADC6C /* ContentView.swift */,
 				EFA1F167279F3B8B00DADC6C /* RectangleView.swift */,
 				EFA1F165279F376F00DADC6C /* ChangeColorSlider.swift */,
+				EFFCB53F27A2F96B000F413C /* SliderTextField.swift */,
 				EFA1F15B279F375300DADC6C /* Assets.xcassets */,
 				EFA1F15D279F375300DADC6C /* Preview Content */,
 			);
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFA1F15A279F375100DADC6C /* ContentView.swift in Sources */,
+				EFFCB54027A2F96B000F413C /* SliderTextField.swift in Sources */,
 				EFA1F158279F375100DADC6C /* ColorizedApp.swift in Sources */,
 				EFA1F168279F3B8B00DADC6C /* RectangleView.swift in Sources */,
 				EFA1F166279F376F00DADC6C /* ChangeColorSlider.swift in Sources */,
@@ -290,7 +294,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = swift.Colorized;
+				PRODUCT_BUNDLE_IDENTIFIER = Colorized;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -319,7 +323,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = swift.Colorized;
+				PRODUCT_BUNDLE_IDENTIFIER = Colorized;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
